@@ -47,7 +47,7 @@ const questions = [
 
 
 const getAns = (givenAns, realAns) => {
-  console.log(givenAns, realAns)
+
   if (givenAns.toUpperCase() === realAns.toUpperCase()) {
     score++;
 
