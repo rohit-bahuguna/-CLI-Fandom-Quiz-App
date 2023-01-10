@@ -47,8 +47,10 @@ const questions = [
 
 
 const getAns = (givenAns, realAns) => {
-  if (givenAns.toUpperCase == realAns.toUpperCase) {
+  console.log(givenAns, realAns)
+  if (givenAns.toUpperCase() === realAns.toUpperCase()) {
     score++;
+
     console.log(`Right answer well done , you got a point${nextLine}your score is ${score}${nextLine}`)
   } else {
     if (score !== 0) {
